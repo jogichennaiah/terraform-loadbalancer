@@ -6,6 +6,15 @@ output "PRIVATE_ALB_ARN" {
     value = module.alb-private.ALB_ARN
 }
 
+output "PUBLIC_ALB_ADDRESS" {
+    value = module.alb-public.ALB_ADDRESS
+}
+
+output "PRIVATE_ALB_ADDRESS" {
+    value = module.alb-private.ALB_ADDRESS
+}
+
+
 # output "VPC_ID" {
 #    value = module.vpc.VPC_ID
 # }
