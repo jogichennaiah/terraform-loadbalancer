@@ -10,4 +10,5 @@ module "alb-private" {
   ENV                       = var.ENV
   ALB_NAME                  = "roboshop-private"
   INTERNAL                  = true
+  APP_PORT                  = 8080
 }
