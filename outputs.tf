@@ -18,6 +18,15 @@ output "PRIVATE_LISTENER_ARN" {
     value   = module.alb-private.LISTENER_ARN[0]
 }
 
+output "PRIVATE_HOSTED_ZONE_ID" {
+  value = aws_route53_zone.private.id
+}
+
+output "PUBLIC_HOSTED_ZONE_ID" {
+  value = aws_route53_zone.public.id
+}
+
+
 
 # output "VPC_ID" {
 #    value = module.vpc.VPC_ID
