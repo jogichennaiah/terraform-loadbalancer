@@ -53,18 +53,18 @@ output "PRIVATE_LISTENER_ARN" {
 #    value = module.vpc.DEFAULT_VPC_CIDR
 # }
 
-output "PRIVATE_HOSTED_ZONE_ID" {
-   value = var.PRIVATE_HOSTED_ZONE_ID
-}
+# output "PRIVATE_HOSTED_ZONE_ID" {
+#    value = var.PRIVATE_HOSTED_ZONE_ID
+# }
 
-output "PRIVATE_HOSTED_ZONE_NAME" {
-   value = var.PRIVATE_HOSTED_ZONE_NAME
-}
+# output "PRIVATE_HOSTED_ZONE_NAME" {
+#    value = var.PRIVATE_HOSTED_ZONE_NAME
+# }
 
-output "Public_HOSTED_ZONE_ID"{
-   value = var.PUBLIC_HOSTED_ZONE_ID
-}
+# output "Public_HOSTED_ZONE_ID"{
+#    value = var.PUBLIC_HOSTED_ZONE_ID
+# }
 
-output "PUBLUC_HOSTED_ZONE_NAME" {
-   value = var.PUBLIC_HOSTED_ZONE_NAME
-}
+# output "PUBLUC_HOSTED_ZONE_NAME" {
+#    value = var.PUBLIC_HOSTED_ZONE_NAME
+# }
